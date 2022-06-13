@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #F9EBEA;
+}
+
+.container{
+  max-width: 1210px;
+  height: 820px;
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header{
+  display: flex;
+  box-shadow: 0px 0px 20px 10px rgb(223, 199, 153);
+}
+
+.header-bgImg{
+  width: 463px;
+  height: 820px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/uylar.jpg");
+  margin-right: 40px;
+}
+
+.header-bgImg-link{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.header-data{
+  width: 660px;
+  height: 820px;
+}
+
+.header-data-lang{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.header-data-lang-link{
+  margin-top: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.header-data-hero{
+  display: flex;
+}
+
+.header-data-hero-box{
+  display: flex;
+}
+
+.header-data-h1{
+  margin-bottom: 15px;
+  font-size: 60px;
+  width: 400px;
+}
+
+.hr{
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.header-data-info{
+  margin-top: 40px;
+  display: flex;
+  width: 620px;
+  height: 200px;
+}
+
+.header-data-info-box-link{
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+}
+
+.header-data-info-text{
+  line-height: 30px;
+  margin: 0;
+  margin-left: 40px;
+  font-size: 20px;
+}
